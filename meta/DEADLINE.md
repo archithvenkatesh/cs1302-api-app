@@ -13,14 +13,18 @@ Markdown is transformed into nice-looking HTML.
 > in a meaningful way.
 
 > **Also, include the GitHub `https` URL to your repository.**
+https://github.com/archithvenkatesh/cs1302-api-app.git
 
-TODO WRITE / REPLACE
+The app takes in a US zip code from the user and using an API it is
+    able to convert the zipcode into latitudes and longituteds.
+    Another API then use those coordinates to get the sunrise
+    and sunset times for that location.
 
 ## Part 1.2: APIs
 
-> For each RESTful JSON API that your app uses (at least two are required), 
+> For each RESTful JSON API that your app uses (at least two are required),
 > include an example URL for a typical request made by your app. If you
-> need to include additional notes (e.g., regarding API keys or rate 
+> need to include additional notes (e.g., regarding API keys or rate
 > limits), then you can do that below the URL/URI. Placeholders for this
 > information are provided below. If your app uses more than two RESTful
 > JSON APIs, then include them with similar formatting.
@@ -28,29 +32,33 @@ TODO WRITE / REPLACE
 ### API 1
 
 ```
-https://.../replace/me
+https://api.zippopotam.us/us/30040
 ```
 
-> Replace this line with notes (if needed) or remove it (if not needed).
+
 
 ### API 2
 
 ```
-https://../replace/me
+https://api.sunrise-sunset.org/json?lat=34.2321&lng=-84.158
 ```
 
-> Replace this line with notes (if needed) or remove it (if not needed).
+
 
 ## Part 2: New
 
 > What is something new and/or exciting that you learned from working
 > on this project?
 
-TODO WRITE / REPLACE
+I learned to use multipe APIs in one project which was new and interesting.
+    Connection input and output from different API's was challenging,
+    however it made me a better programming.
 
 ## Part 3: Retrospect
 
 > If you could start the project over from scratch, what do
 > you think might do differently and why?
 
-TODO WRITE / REPLACE
+If I could start differently I would spend more time getting more famililar
+    with the formats of the API responses so I wouldn't meet roadblocks as
+    I was coding.
